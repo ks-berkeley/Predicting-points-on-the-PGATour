@@ -1,1 +1,3 @@
-# Predicting-points-on-the-PGATour
+# Predicting FedEX Cup points on the PGA TOUR
+
+We will analyze data and statistics from pgatour players to predict fedex cup points every year based on several statistics (driving distance, green in regulation percentage, strokes gained in each category, etc.) from the pgatour. Becaues I consider stats like money and scoring average to be other measures of success on their own, I will omit them from my features. This data will be extracted from the PGAtourwebsite using BeautifulSoup, and will be converted to a dataframe using pandas. A polynomial model will be used to predict points made by each player; r^2 and RMSE will be the measure of the accuracy of the model. In future iterations of this project, more work will be done on developing a better model.
